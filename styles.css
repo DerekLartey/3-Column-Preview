@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.main{
+    width: 920px;
+    height: 550px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+    width: 33%;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.two{
+    width: 33%;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.three{
+    width: 33%;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.sedan{
+    margin: 40px;
+}
+
+.suv{
+    margin: 40px;
+}
+
+.luxury{
+    margin: 40px;
+}
+
+h1{
+    margin-left: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+}
+
+.paraone{
+    margin: 30px 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 1.9;
+    padding: 6px;
+}
+
+.paratwo{
+    margin: 30px 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 1.9;
+    padding: 6px;
+}
+
+.parathree{
+    margin: 30px 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 1.9;
+    padding: 6px;
+}
+
+.butone:hover{
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.buttwo:hover{
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+
+.butthree:hover{
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.butone{
+    padding: 18px;
+    width: 55%;
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    border: none;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.buttwo{
+    padding: 18px;
+    width: 55%;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    border: none;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.butthree{
+    padding: 18px;
+    width: 55%;
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+    border: none;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 500px) {
+    .main{
+        width: 950px;
+        height: 550px;
+        margin: 150px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .butone{
+        padding: 18px;
+        width: 55%;
+        border-radius: 30px;
+        color: hsl(31, 77%, 52%);
+        border: none;
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin: 30px 40px;
+    }
+    
+    .buttwo{
+        padding: 18px;
+        width: 55%;
+        border-radius: 30px;
+        color: hsl(184, 100%, 22%);
+        border: none;
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin: 30px 40px;
+    }
+    
+    .butthree{
+        padding: 18px;
+        width: 55%;
+        border-radius: 30px;
+        color: hsl(179, 100%, 13%);
+        border: none;
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin: 30px 40px;
+    }
+
+    .paraone{
+        margin: 30px 40px 10px 40px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        line-height: 1.9;
+        padding: 6px;
+    }
+    
+    .paratwo{
+        margin: 30px 40px 10px 40px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        line-height: 1.9;
+        padding: 6px;
+    }
+    
+    .parathree{
+        margin: 30px 40px 10px 40px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        line-height: 1.9;
+        padding: 6px;
+    }
+
+    .one{
+        width: 33%;
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .two{
+        width: 33%;
+        background-color: hsl(184, 100%, 22%);
+    }
+    
+    .three{
+        width: 33%;
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
+
